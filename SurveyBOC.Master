@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SurveyBOC.master.cs" Inherits="Survey_BOC_ASP.SurveyBOC" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>BOC Survey</title>
+    
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/jquery-3.1.1.js"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/overrides.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron">
+            <br />
+        </div>
+    </header>
+
+    <main>      
+        <div>
+            <asp:ContentPlaceHolder ID="mainPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>      
+    </main>
+
+    <footer>
+        <div class="text-center">
+            &copy; BOC Survey Project July Class
+        </div>
+    </footer>
+</body>
+</html>
